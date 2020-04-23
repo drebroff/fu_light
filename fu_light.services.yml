@@ -1,0 +1,10 @@
+services:
+  fu_light.route_subscriber:
+    class: Drupal\fu_light\Routing\FuRouteSubscriber
+    tags:
+      - { name: event_subscriber }
+  fu_light.default:
+    class: Drupal\fu_light\EventSubscriber\FuLightSubscriber
+    arguments: []
+    tags:
+      - { name: event_subscriber }

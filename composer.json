@@ -1,0 +1,13 @@
+{
+    "name": "fu_light",
+    "type": "drupal-module",
+    "description": "Light module for testing",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/fu_light",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/fu_light",
+        "source": "http://cgit.drupalcode.org/fu_light",
+    },
+}

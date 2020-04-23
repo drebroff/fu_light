@@ -1,0 +1,5 @@
+name: 'Funami light'
+type: module
+description: 'Light module for testing'
+core: 8.x
+package: 'Funami'

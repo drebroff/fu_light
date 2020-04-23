@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains fu_light.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function fu_light_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the fu_light module.
+    case 'help.page.fu_light':
+      $output = '';
+      // $output .= '<h3>' . t('About') . '</h3>';
+      // $output .= '<p>' . t('Light module for testing') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function fu_light_theme($existing, $type, $theme, $path) {
+  return [
+    'fu_light' => [
+      'variables' => ['test_var' => NULL, 'route_var' => 'wazzaaaaap'],
+    ],
+  ];
+}

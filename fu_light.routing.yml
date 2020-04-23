@@ -1,0 +1,8 @@
+
+fu_light.fu_controller_hello:
+  path: '/fu_light/hello/{name}'
+  defaults:
+    _controller: '\Drupal\fu_light\Controller\FuController::hello'
+    _title: 'FuView'
+  requirements:
+    _permission: 'access content'

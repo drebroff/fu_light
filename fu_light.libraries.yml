@@ -1,0 +1,6 @@
+fu_light-library:
+  version: 1.x
+  js:
+    js/fu_js.js: {preprocess: false}
+  dependencies:
+    - core/drupal.ajax
