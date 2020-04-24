@@ -2,4 +2,5 @@ name: 'Funami light'
 type: module
 description: 'Light module for testing'
 core: 8.x
+version: 0.0.1
 package: 'Funami'
